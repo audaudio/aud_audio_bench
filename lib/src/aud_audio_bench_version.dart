@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_audio_bench` package.
-const String audAudioBenchVersion = '0.0.2';
+const String audAudioBenchVersion = '0.0.3';
