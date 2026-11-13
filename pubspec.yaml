@@ -21,7 +21,8 @@ homepage: https://github.com/audaudio/aud_audio_bench
 repository: https://github.com/audaudio/aud_audio_bench
 
 environment:
-  sdk: ^3.13.0
+  sdk: ^3.14.0
+  flutter: ">=3.50.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -41,6 +42,7 @@ dependencies:
       url: git@github.com:audaudio/aud_audio.git
       tag_pattern: "{{version}}"
     version: ^0.5.0
+  material_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -51,7 +53,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
-  helix: ^1.14.0
   dna_audanika: ^0.1.0
 
 # For information on the generic Dart part of this file, see the
